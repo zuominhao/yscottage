@@ -8,7 +8,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "axios": "^1.4.0",
     "element-plus": "^2.3.9",
+    "event-source-polyfill": "^1.0.31",
     "jwchat": "^1.0.12",
     "vue": "^3.3.4",
     "vue-router": "^4.2.4"

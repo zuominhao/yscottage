@@ -1,9 +1,9 @@
 <script setup>
-import Aside1 from '../components/Aside1.vue'
-import Aside2 from '../components/Aside2.vue'
-import Aside3 from '../components/Aside3.vue'
-import Header from '../components/Header.vue'
-import Main from '../components/Main.vue'
+import AsideLeft from '../components/oscomponents/AsideLeft.vue'
+import Aside2 from '../components/Aside1-2.vue'
+import AsideRight from '../components/oscomponents/AsideRight.vue'
+import Header from '../components/oscomponents/Header.vue'
+import Main from '../components/chat/Main.vue'
 </script>
 
 <template>
@@ -13,10 +13,10 @@ import Main from '../components/Main.vue'
       <el-header><Header/></el-header>
 
       <el-container>
-        <el-aside width="100px"><Aside1/></el-aside>
+        <el-aside width="100px"><AsideLeft/></el-aside>
         <el-aside width="160px"><Aside2/></el-aside>
         <el-main ><Main/></el-main>
-        <el-aside width="260px"><Aside3/></el-aside>
+        <el-aside width="260px"><AsideRight/></el-aside>
       </el-container>
 
     </el-container>

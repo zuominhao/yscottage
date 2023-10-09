@@ -3,10 +3,7 @@
     <el-col>
       <el-menu default-active="2">
         <el-menu-item index="1">
-          <span>chattingRoom</span>
-        </el-menu-item>
-        <el-menu-item index="2">
-          <span>Kitchen</span>
+          <span>聊天室</span>
         </el-menu-item>
       </el-menu>
     </el-col>
